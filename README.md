@@ -40,7 +40,7 @@ the key/value pairs contained in a hash.
 
 The `#each` iterator that we encountered in previous units can also be used to
 iterate over hashes. When we iterate over arrays, we iterate over one element at
-a time––each index in an array contains just one object. In a hash however, data
+a time &mdash; each index in an array contains just one object. In a hash however, data
 is stored in key/value pairs so we will be iterating over those _pairs_. Let's
 take a look:
 
@@ -74,7 +74,8 @@ Let's try it out together:
 
 ## Code Along I: Cruise Ship
 
-**Open up this repo in your text editor to get started. Follow along with the instructions below to get your tests passing**.
+**Open up this repo in your text editor to get started. Follow along with the
+instructions below to get your tests passing**.
 
 The good news is you're on a cruise ship! The bad news is that you're _not_ on
 vacation. You are a cruise ship director and you're selecting the day's lucky
@@ -96,11 +97,11 @@ suite_e: "Crumpet the Elf"
 }
 ```
 
-Open up `cruise_ship.rb` and you'll see the `passengers` hash, commented out.
-(It's just there to remind you what the hash we are using looks like.) We have a
-method `#select_winner` that will take in the passengers hash as an argument.
-Our job is to code the content of that method such that it returns the lucky
-winner.
+Open up `lib/cruise_ship.rb` and you'll see the `passengers` hash, commented
+out. (It's just there to remind you what the hash we are using looks like.) We
+have a method `#select_winner` that will take in the passengers hash as an
+argument. Our job is to code the content of that method such that it returns the
+lucky winner.
 
 ### Our Method
 
@@ -152,7 +153,8 @@ Let's break this down:
 In this example, we are the managers at Chuck E. Cheese's. Chuck E. Cheese's is
 a great place to have a birthday party, and there are several birthdays going on
 here today. Our job is to write a method that operates on a hash of birthday
-kids and wishes them a happy birthday.
+kids and wishes them a happy birthday. We'll be coding our method in the
+`lib/birthday.rb` file.
 
 ### Our Hash
 
