@@ -109,7 +109,8 @@ We need to iterate over the passengers and collect the name of the passenger who
 is staying in Suite A _and_ whose name begins with the letter "A". Let's give it
 a shot:
 
-Place the following snippet of code inside the `#select_winner` method:
+Place the following snippet of code **inside** the `#select_winner` method that
+is in the `lib/cruise_ship.rb` file:
 
 ```ruby
 winner = ""
